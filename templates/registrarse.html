@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X- UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,0">
+    <title>Registrarse</title>
+    <link rel="icon" type="image/x-icon" href="C:\Proyectoapp\SRC\dist\img\icono.png">
+    <link rel="stylesheet" href="../Proyectoapp/CSS/style.css">
+</head>
+<body>
+
+    <style>
+        body {
+            background: #00fff38c;
+        }
+
+        .controls {
+            outline: 0px;
+            border: 0px;
+            background: rgba(0, 0, 0, 0);
+            border-bottom: 3px solid #0000008c;
+        }
+
+        .formulario{
+            background: pink;
+            border: 2px solid black;
+            width: 360px;
+            height: 270px;
+            margin: 0px auto;
+            box-shadow: 0px 0px 20px blueviolet;
+        }
+    </style>
+    
+
+    <header>
+        <a href="/PROYECTOAPP"></a>
+    </header>
+    <section class="logo">
+        <img src=".." alt="">
+    </section>
+
+    <div class="formulario">
+
+        <form action="/Add_user" methods="POST">
+        <center><h2>INICIO</h2>
+            <input class="controls" type="text" placeholder="Usuario"><p>
+            <input class="controls" type="text" placeholder="Correo Electronico"><p>
+            <input class="controls" type="password" placeholder="Contraseña"><p>
+            <input class="controls" type="password" placeholder="Confirmar contraseña"><p></center>
+
+                <center><button><a class="boton" href="C:\Proyectoapp\SRC\templates\perfil.html">ingresar</a></button></center>
+        </form>
+    </div>
+    
+</body>
+</html>
